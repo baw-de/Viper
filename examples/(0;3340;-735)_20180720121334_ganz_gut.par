@@ -1,0 +1,20 @@
+//
+//
+parset_props.ver=1.3;
+parset_props.id=738538.764419063;
+//
+dat_props.type='vno';
+dat_props.column_t=1;
+dat_props.column_u=4;
+dat_props.frq=100;
+dat_props.probe_nvr={'0.30','m/s'};
+dat_props.probe_cfg='side-looking';
+//
+coordsys.unit='m';
+coordsys.file_coords=[0 3.34 -0.735];
+coordsys.measpt_offset=[0 0 -0.05];
+coordsys.measpt_coords=[0 3.34 -0.785];
+coordsys.dir_probe_u='+y';
+//
+errfilt.used_types={};
+errfilt.used_velcomp=[1;1;1];

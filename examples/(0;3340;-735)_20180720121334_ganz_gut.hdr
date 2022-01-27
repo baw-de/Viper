@@ -1,0 +1,143 @@
+[U:\m_testdata\test_ADV_W2_Donau_gute\(0;3340;-735)_20180720121334.vno]
+---------------------------------------------------------------------
+Number of measurements                12984
+Number of checksum errors             0
+Time of first measurement             20.07.2018 12:13:35
+Time of last measurement              20.07.2018 12:15:45
+
+User setup
+---------------------------------------------------------------------
+Sampling rate                         100 Hz
+Nominal velocity range                0.30 m/s
+Probe type                            STANDARD
+Transmit length                       1.8 mm
+Sampling volume                       7.0 mm
+Output sync                           VECTRINO
+Output sync                           MASTER
+Analog output                         DISABLED
+Velocity scaling                      0.1 mm
+Powerlevel                            HIGH
+Coordinate system                     XYZ
+Sound speed                           MEASURED
+Salinity                              0.0 ppt
+Number of beams                       4
+Software version                      0.01.00
+System1                               6
+System2                               50
+System3                               7
+System4                               445
+System5                               512
+System9                               1154
+System10                              65
+System11                              0
+System12                              0
+System13                              0
+System14                              1
+System16                              1
+System17                              7
+System22                              10800
+System28                              1
+System29                              1
+System30                              20
+System31                              15087 15117 15147 15176
+System32                              5357
+System33                              32768
+System34                              16384
+System35                              30583
+System36                              15292
+System37                              7646
+System38                              140
+System39                              300
+System40                              0
+System41                              0
+System42                              2796
+System43                              0
+System44                              6
+System45                              6
+System46                              4839
+System47                              32768
+System48                              16384
+System49                              31744
+System50                              15872
+System51                              7936
+System52                              155
+System53                              320
+System39                              200 200 200 200
+Start command                         None
+CRC download                          Unknown
+
+Hardware configuration
+---------------------------------------------------------------------
+Serial number                         VNO 1036
+Internal code version                 0
+Hardware revision                     4 (E)
+Hardware revision                     4 (E)
+Firmware version                      1.31 +
+
+Head configuration
+---------------------------------------------------------------------
+System 1                              0
+Head frequency                        10000 kHz
+Serial number                         VCN 8067
+Transformation matrix                 1.9961 -2.0320 0.0000 0.0000
+                                      -0.5857 -0.4458 0.0000 0.0000
+                                      -2.7544 -2.7544 2.7544 2.7544
+                                      0.0000 0.0000 0.0000 0.0000
+Number of beams                       4
+System5                               0 0 0 0
+System7                               -11282 11282 11282 0
+                                      0 0 0 0
+System8                               0 0 0
+                                      0 0 0
+                                      0 0 0
+System9                               0 0 0
+                                      0 0 0
+                                      0 0 0
+System10                              0 0 0 0
+System11                              0 0 0 0
+System13                              1481 259 7128 10861
+System14                              0 0 0 0
+                                      0 0 0 0
+System15                              0 0 0 0
+                                      0 0 0 0
+                                      0 0 0 0
+                                      0 0 0 0
+System16                              0 0 0 0
+System17                              0
+System18                              0
+System19                              0
+System20                              10000
+
+Velocity header
+---------------------------------------------------------------------
+Distance                              0.1742 m
+Quality                               5 counts
+Lag1 & Lag2 used                      140 300 counts
+Noise amplitude (beam1-4)             11 12 11 11 counts
+Noise correlation (beam1-4)           0 10 12 12 %
+Temperature                           22.07 degrees C
+Soundspeed                            1488.5 m/s
+
+Data file format
+---------------------------------------------------------------------
+[U:\m_testdata\test_ADV_W2_Donau_gute\(0;3340;-735)_20180720121334.dat]
+ 1   File mark (opt.)                 (1-16777216)
+ 2   Time (opt.)                      (ms)
+ 3   Ensemble counter                 (1-16777216)
+ 4   Status
+ 5   Velocity (Beam1|X)               (m/s)
+ 6   Velocity (Beam2|Y)               (m/s)
+ 7   Velocity (Beam3|Z)               (m/s)
+ 8   Velocity (Beam4|Z2)              (m/s)
+ 9   Amplitude (Beam1)                (counts)
+10   Amplitude (Beam2)                (counts)
+11   Amplitude (Beam3)                (counts)
+12   Amplitude (Beam4)                (counts)
+13   SNR (Beam1)                      (dB)
+14   SNR (Beam2)                      (dB)
+15   SNR (Beam3)                      (dB)
+16   SNR (Beam4)                      (dB)
+17   Correlation (Beam1)              (%)
+18   Correlation (Beam2)              (%)
+19   Correlation (Beam3)              (%)
+20   Correlation (Beam4)              (%)
